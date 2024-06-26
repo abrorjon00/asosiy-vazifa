@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans';
+    margin-bottom: 60px;
+    justify-content: space-between;
+   background-color: black;
+}
+
+
+
+.container {
+    max-width: 1620px;
+    margin: auto;
+  
+
+}
+
+.header__container{
+    margin-top: 70px;
+}
+
+.header__container a {
+text-decoration: none;
+}
+
+.header__container a .title{
+transition: all 0.3s ease-in-out;
+color: #fff;
+font-size: 30px;
+}
+
+.header__container a .title:hover{
+    color: aqua;
+    border: 2px solid black;
+}
+
+.header__container{
+    display: flex;
+
+    align-items: center;
+}
+.header__container nav {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+  margin-left: 622px;
+  margin-right: 80px;
+
+}
+.header__container nav ul{
+    display: flex;
+       gap: 80px;
+}
+.header__container nav ul li{
+    display: flex;
+
+ 
+}
+.header__container nav ul li a{
+
+    text-decoration: none;
+  transition: all 0.3s linear;
+  color: #fff;
+}
+
+.header__container nav ul li a:hover{
+    background-color: aqua;
+  border: 2px solid black;
+}
+
+.header__container .button{
+    text-decoration: none;
+    .a1 {
+
+        color: #fff;
+       
+        border-radius: 20px;
+        background: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 13px 25px 13px 25px;
+        display: inline-block;
+        transition: all 0.5s ease-in-out;
+       
+      }
+    
+      .a1:hover{
+        background-color: aqua;
+      }
+}
+
+.header__container .button .a1{
+    color: black;
+  
+font-size: 18px;
+font-weight: 600;
+line-height: 24.51px;
+
+}
+
+.main__container{
+    display: flex;
+    margin-top: 243px;
+}
+
+.main__container .info{
+    margin-right: 65px;
+}
+
+.main__container .info .suptitle{
+font-size: 70px;
+margin-top: 90px;
+font-weight: 800;
+line-height: 78px;
+color: #FFFFFF;
+}
+
+.main__container .info .descripsoin{
+    
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 78px;
+    color: #FFFFFF;
+    
+}
+
+.main__container .info .button{
+    margin-top: 40px;
+   
+}
+
+
+
+.a1 {
+margin-right: 30px;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    background: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 13px 25px 13px 25px;
+    display: inline-block;
+    transition: all 0.5s linear;
+    border-radius: 20px;
+  }
+
+  .a1:hover{
+    background-color:  aqua;
+  }
+  
+  
+  
+  .a2 {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+  
+    font-size: 14px;
+    font-weight: 500;
+    padding: 13px 25px 13px 25px;
+    display: inline-block;
+    transition: all 0.5s linear;
+    border-radius: 20px ;
+    border: 2px solid #fff;
+    
+  }
+  
+  .a2:hover {
+    background-color:bisque ;
+  }
+
+  .main__container .imgs{
+    margin-left: 62px;
+  }
+
+  .block{
+  text-align: center;
+  margin-top: 100px;
+  }
+
+  .block img{
+    margin-bottom: 11px;
+  }
